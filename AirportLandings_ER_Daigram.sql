@@ -1,4 +1,4 @@
-#Airport Landings ER Model
+#GROUP 01
 # Geo Region
 CREATE TABLE geo_region (
     geo_region_id INT(2) NOT NULL AUTO_INCREMENT,
@@ -131,37 +131,37 @@ show global variables like 'local_infile';
 set global local_infile=true;
 set global local_infile=1;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp`.`geo_region`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp.geo`.`region_csv`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp.geo`.`region_csv`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp.geo`.`region_csv`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp.geo`.`region_csv`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'geo_region.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/drewy/OneDrive - Texas Tech University/Data Science/Database Concepts/geo_region.csv'
 INTO TABLE `-g1fcp.geo`.`region_csv`
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
